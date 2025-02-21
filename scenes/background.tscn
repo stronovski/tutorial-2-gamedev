@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bti727kj2202s"]
+
+[ext_resource type="Texture2D" uid="uid://duawqp3gli4ae" path="res://assets/snow.webp" id="1_ovp0g"]
+
+[node name="Background" type="Node2D"]
+
+[node name="Node2D" type="ColorRect" parent="."]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(0, 1)
+texture = ExtResource("1_ovp0g")

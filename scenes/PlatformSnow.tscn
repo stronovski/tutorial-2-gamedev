@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dav2eomepjt5u"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_qatak"]
+
+[node name="PlatformSnow" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+physics_material_override = SubResource("PhysicsMaterial_qatak")
